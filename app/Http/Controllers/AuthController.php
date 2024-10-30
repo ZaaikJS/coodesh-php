@@ -49,7 +49,7 @@ class AuthController extends Controller
 
         $user = User::where('email', $request->email)->first();
 
-        if (!$user || !Hash::check($request->password, $user->password)) {
+        if (! $user || ! Hash::check($request->password, $user->password)) {
             return response()->json(['error' => 'TOken inválido'], 401);
         }
 
@@ -57,7 +57,7 @@ class AuthController extends Controller
             'id' => $user->id,
             'name' => $user->name,
             'token' => $this->generateToken($user),
-        ]);
+        ], 201);
     }
 
     // Token
