@@ -67,7 +67,14 @@ Certifique-se de que o arquivo `.gitignore` esteja presente e configurado corret
 ```
 /vendor
 /.env
-/node_modules
+```
+
+9. **Importar palavras para o banco de dados:**
+
+Use o comando:
+
+```
+php artisan import:words words_dictionary.json
 ```
 
 ---
