@@ -69,9 +69,9 @@ Certifique-se de que o arquivo `.gitignore` esteja presente e configurado corret
 /.env
 ```
 
-9. **Importar palavras para o banco de dados:**
+## Como Instalar e Usar
 
-Use o comando:
+1. **Use o comando:**
 
 ```
 php artisan import:words words_dictionary.json
