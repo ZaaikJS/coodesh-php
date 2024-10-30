@@ -69,7 +69,7 @@ Certifique-se de que o arquivo `.gitignore` esteja presente e configurado corret
 /.env
 ```
 
-## Como Instalar e Usar
+## Importar palavras para o banco de dados
 
 1. **Use o comando:**
 
