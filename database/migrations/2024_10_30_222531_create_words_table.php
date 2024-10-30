@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('words', function (Blueprint $table) {
             $table->id();
-            $table->string('word')->unique(); // Campo para armazenar a palavra, deve ser único
+            $table->string('word')->unique();
             $table->timestamps();
         });
     }
