@@ -57,7 +57,7 @@ class AuthController extends Controller
             'id' => $user->id,
             'name' => $user->name,
             'token' => $this->generateToken($user),
-        ], 201);
+        ]);
     }
 
     // Token
