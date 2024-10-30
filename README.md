@@ -77,6 +77,11 @@ Certifique-se de que o arquivo `.gitignore` esteja presente e configurado corret
 php artisan import:words words_dictionary.json
 ```
 
+## Extra
+
+Projeto NextJS que integra todas as APIs, com página de login/registro, painel com pesquisa de palavras, visualização de histórico/favotiros, adicionar/remover favoritos e ouvir a pronúnica das palavras.
+
+https://github.com/ZaaikJS/coodesh-nextjs
 ---
 
 **Este é um desafio da Coodesh.**
